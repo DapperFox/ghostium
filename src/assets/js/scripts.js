@@ -27,7 +27,7 @@
     // PrismJS handler
     // =================
     Prism.languages.html = Prism.languages.markup;
-
+    console.log('testing');
     var _prismHandler = function() {
       $('code').not('[class*="language-"]').addClass(function() {
         var _lang = $(this).attr('class')  || 'markup';
